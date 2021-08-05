@@ -1,0 +1,30 @@
+{
+  "name": "graphql-blog",
+  "version": "1.0.0",
+  "description": "A Node.js app Blog using MongoDB & GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrarramzan-dev/graphql-blog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "graphql",
+    "jwt"
+  ],
+  "author": "Ibrar Ramzan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrarramzan-dev/graphql-blog/issues"
+  },
+  "homepage": "https://github.com/ibrarramzan-dev/graphql-blog#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
